@@ -1,5 +1,5 @@
 # <p align="center">AnVangLuxury</p>
-<p>
+<p align="center">
 	(My first backend website project)
 </p>
 
