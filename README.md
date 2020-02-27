@@ -4,7 +4,7 @@
 </p>
 
 # Giới thiệu
-Website "An Vang Luxury" xâu dựng với mục đích phục vụ hoạt động mua bán, kinh doanh vàng bạc trực tuyến. Website có thể áp dụng cho các cửa hàng, công ty kinh doanh vàng vừa và nhỏ.
+Website "An Vang Luxury" xây dựng với mục đích phục vụ hoạt động mua bán, kinh doanh vàng bạc trực tuyến. Website có thể áp dụng cho các cửa hàng, công ty kinh doanh vàng vừa và nhỏ.
 
 # Công nghệ sử dụng
 - Backend: PHP
@@ -15,7 +15,7 @@ Website "An Vang Luxury" xâu dựng với mục đích phục vụ hoạt độ
 - Database: MySQL
 
 # Sơ đồ quan hệ giữa các bảng trong MySQL
-<p align="center"><img src="image_test/csdl/ERD_MySQL.PNG"></p>
+<p align="center"><img src="csdl/ERD_MySQL.PNG"></p>
 
 # Chức năng của các tác nhân
 ## 1. Khách hàng ##
