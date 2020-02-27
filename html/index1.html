@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="vi-vn" xml:lang="vi-vn">
+<head>
+	<title>Anvang-Trang sức vàng bạc, đá quý</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div id="wrapper">
+<!-- PHẦN HEADER -->
+<header class="canhdeu_2ben">
+	
+<div class="logo_search_hotline">
+	<div class="logo">
+		<img src="./img/logo.png" title="anvang" alt="logo">
+	</div>
+	<div class="search_hotline">
+		<div class="search_box">
+			<form action="" method="get">
+			<input type="search" placeholder="Tìm kiếm trang sức vàng bạc ...">
+			<button type="submit"><img src="./img/kinhlup.png"></button>
+			</form>
+		</div>
+		<div class="hotline">
+			<p>Hotline: 0164.724.4142</p>
+		</div>
+	</div>
+</div>
+</header>
+
+<!-- PHẦN MENU_NGANG -->
+<nav>
+<div class="canhdeu_2ben">
+	<ul>
+		<li id="trangchu">
+			<a href="index.html">Trang chủ</a>
+		</li>
+		<li><a href="#">Giới thiệu</a>
+		</li>
+		<li><a href="#">Dịch vụ</a>
+		</li>
+		<li><a href="#">Hướng dẫn mua hàng</a>
+		</li>
+		<li><a href="#">Liên hệ</a>
+		</li>
+	</ul>
+</div>
+</nav>
+
+<!-- PHẦN NỘI DUNG SECTION -->
+<section >
+<div id="menu_slide">
+	<div id="menu_doc"> 	<!-- Menu dọc-->
+				<div id="top">
+					<img src="./img/menu.png" title="menu" alt="icon"/>
+					<span>DANH MỤC SẢN PHẨM</span>
+				</div>
+
+				<dl>
+					<dt>
+						<img src="./img/check.png" title="check" alt="check"/>
+						<span><a href="#">Nhẫn cưới nam nữ</a></span>
+					</dt>
+					<dt>
+						<img src="./img/check.png" title="check" alt="check"/>
+							<span><a href="#">Trang sức dây chuyền</a></span>
+					</dt>
+					<dt>
+						<img src="./img/check.png" title="check" alt="check"/>
+							<span><a href="#">Trang sức ngoại nhập</a></span>
+					</dt>	
+					<dt>
+						<img src="./img/check.png" title="check" alt="check"/>
+							<span><a href="#">Sản phẩm khuyến mãi</a></span>
+					</dt>				
+				</dl>
+			</div>
+	<!-- Phần slide -->
+			<div class="slide_nut">
+				<a href="#"><img src="./img/slide1.png" title="" alt="anh1" class="slide"/></a>
+				<a href="#"><img src="./img/slide2.jpg" title="" alt="anh2" class="slide"/></a>
+				<a href="#"><img src="./img/slide3.jpg" title="" alt="anh3" class="slide"/></a>
+			<!-- Nút di chuyển slide -->
+				<button onClick="Chuyen_slide(1);" type="button" id="next">&lt;</button>
+				<button onClick="Chuyen_slide(-1);" type="button" id="back">&gt;</button>
+			</div>
+
+	<!-- Phần đăng kí, đăng nhập -->
+		<div id="dangky_dangnhap">
+			<div class="dangnhap">
+				<div class="top" id="dang_nhap" >
+					<span>Đăng nhập</span>
+				</div>
+				<div id="dang-nhap-form" >
+					<form action="?menu=exec_dang_nhap" method="post">
+						<table>
+							<tr>
+								<td><label for="user">Tên đăng nhập: </label><br><input type="text" name="username" id="user" placeholder="Nhập tên đăng nhập.." required ></td>
+							</tr>
+							<tr>
+								<td><label for="pass">Mật khẩu:</label><br><input type="password"  name="password" id="pass" placeholder="Nhập mật khẩu.." required ></td>
+							</tr>
+							<tr>
+								<td colspan="2" style="padding-top: 8px;"><input type="submit" name="submit" value="Đăng nhập" style="cursor: pointer; "></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<div class="dangky">
+		     	<div class="top" id="dang_ky" style="cursor: pointer; " >
+		      		<span>Đăng ký</span>
+				</div>
+			</div>
+		</div> <!-- dangky_dangnha -->
+</div><!--  menu_slide -->
+
+<!-- Phần Nội dung sản phẩm -->
+<div class="canhdeu_2ben">
+
+<div class="sanpham" id="sp_noibat">
+<!-- Phần Khuyến mãi -->
+	<div class="top_sp">
+		<h2><a href="#">Sản phẩm Khuyến mãi</a> </h2>
+	</div>
+	<div class="sale">
+		<a href="#"><img src="./img/sale1.jpg" title="sale" alt="hinh"></a>
+		<a href="#"><img src="./img/sale2.jpg" title="sale" alt="hinh"></a>
+		<a href="#"><img src="./img/sale3.jpg" title="sale" alt="hinh"></a>
+	</div>
+<!-- Phần sản phẩm -->
+	<div class="top_sp">
+		<h2><a href="#">Trang sức dây chuyền</a> </h2>
+	</div>
+	<div class="noidung_sp">
+		<div class="group_sp">
+			<div class="anh_sp">
+				<a href="#">
+				<img class="anh" src="./img/sp1.jpg" title="sp" alt="anhsp">
+				</a>
+			</div>
+			<div class="tensp_giasp">
+				<h3 class="tensp">
+					<a href="#">Trang sức bộ - MDRC0485</a>
+				</h3>	
+				<div class="giasp">
+					<span class="gia_goc">18.793.000 VNĐ</span>
+					<span class="gia_km">17.793.000 VNĐ</span>
+				</div>
+			</div>
+			<div class="dat_hang">
+				<a href="muahang.html">Đặt hàng</a>
+			</div>
+		</div>
+		<div class="group_sp">
+			<div class="anh_sp">
+				<a href="#">
+				<img class="anh" src="./img/sp2.png" title="sp" alt="anhsp">
+				</a>
+			</div>
+			<div class="tensp_giasp">
+				<h3 class="tensp">
+					<a href="#">Mặt dây chuyền PNJ vàng trắng</a>
+				</h3>	
+				<div class="giasp">
+					<span class="gia_goc">2.082.000 VNĐ</span>
+					<span class="gia_km">1.999.000 VNĐ</span>
+				</div>
+			</div>
+			<div class="dat_hang">
+				<a href="muahang.html">Đặt hàng</a>
+			</div>
+		</div>
+		<div class="group_sp">
+			<div class="anh_sp">
+				<a href="#">
+				<img class="anh" src="./img/sp3.jpg" title="sp" alt="anhsp">
+				</a>
+			</div>
+			<div class="tensp_giasp">
+				<h3 class="tensp">
+					<a href="#">Trang sức bộ - MDRC0488</a>
+				</h3>	
+				<div class="giasp">
+					<span class="gia_goc">20.576.000 VNĐ</span>
+					<span class="gia_km">20.000.000 VNĐ</span>
+				</div>
+			</div>
+			<div class="dat_hang">
+				<a href="muahang.html">Đặt hàng</a>
+			</div>
+		</div>
+		<div class="group_sp">
+			<div class="anh_sp">
+				<a href="#">
+				<img class="anh" src="./img/sp4.jpg" title="sp" alt="anhsp">
+				</a>
+			</div>
+			<div class="tensp_giasp">
+				<h3 class="tensp">
+					<a href="#">Mặt dây vàng trắng MD03</a>
+				</h3>	
+				<div class="giasp">
+					<span class="gia_goc">5.000.000 VNĐ</span>
+					<span class="gia_km">4.000.000 VNĐ</span>
+				</div>
+			</div>
+			<div class="dat_hang">
+				<a href="muahang.html">Đặt hàng</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="sanpham" id="sp_ngoainhap">
+	<div class="top_sp">
+		<h2><a href="#">Sản phẩm ngoại nhập</a></h2>
+	</div>
+	<div class="noidung_sp">
+		<div class="group_sp">
+			<div class="anh_sp">
+				<a href="#">
+				<img class="anh" src="./img/sp5.png" title="sp" alt="anhsp">
+				</a>
+			</div>
+			<div class="tensp_giasp">
+				<h3 class="tensp">
+					<a href="#">Kiềng bạc Ý bạc PNJ Sliver</a>
+				</h3>	
+				<div class="giasp">
+					<span class="gia_goc">3.490.000 VNĐ</span>
+					<span class="gia_km">3.000.000 VNĐ</span>
+				</div>
+			</div>
+			<div class="dat_hang">
+				<a href="muahang.html">Đặt hàng</a>
+			</div>
+		</div>
+		<div class="group_sp">
+				<div class="anh_sp">
+					<a href="#">
+					<img class="anh" src="./img/sp6.jpg" title="sp" alt="anhsp">
+					</a>
+				</div>
+				<div class="tensp_giasp">
+					<h3 class="tensp">
+						<a href="#">Nhẫn nữ - NURC0190</a>
+					</h3>	
+					<div class="giasp">
+						<span class="gia_goc">6.900.000 VNĐ</span>
+						<span class="gia_km">6.500.000 VNĐ</span>
+					</div>
+				</div>
+				<div class="dat_hang">
+					<a href="muahang.html">Đặt hàng</a>
+				</div>
+		</div>
+		<div class="group_sp">
+				<div class="anh_sp">
+					<a href="#">
+					<img class="anh" src="./img/sp7.png" title="sp" alt="anhsp">
+					</a>
+				</div>
+				<div class="tensp_giasp">
+					<h3 class="tensp">
+						<a href="#">Lắc tay bạc PNJ Sliver</a>
+					</h3>	
+					<div class="giasp">
+						<span class="gia_goc">490.000 VNĐ</span>
+						<span class="gia_km">479.000 VNĐ</span>
+					</div>
+				</div>
+				<div class="dat_hang">
+					<a href="muahang.html">Đặt hàng</a>
+				</div>
+		</div>
+		<div class="group_sp">
+				<div class="anh_sp">
+					<a href="#">
+					<img class="anh" src="./img/sp8.jpg" title="sp" alt="anhsp">
+					</a>
+				</div>
+				<div class="tensp_giasp">
+					<h3 class="tensp">
+						<a href="#">Lắc tay vàng nam</a>
+					</h3>	
+					<div class="giasp">
+						<span class="gia_goc">999.000 VNĐ</span>
+						<span class="gia_km">910.000 VNĐ</span>
+					</div>
+				</div>
+				<div class="dat_hang">
+					<a href="muahang.html">Đặt hàng</a>
+				</div>
+		</div>
+	</div>
+</div>
+</div>
+
+</section>
+
+<!-- PHẦN FOOTER -->
+<footer>
+	<div class="canhdeu_2ben">
+		<div class="noidung_footer">
+			<div class="group_footer">
+				<div class="top_footer">
+					<h4><a href="#">Website</a></h4>
+				</div>
+				<ul>
+					<li><a href="#">nguyenva09@gmail.com</a></li>
+					<li><a href="#">0164.724.4142</a></li>
+				</ul>
+			</div>
+			<div class="group_footer">
+				<div class="top_footer">
+					<h4><a href="#">Mua hàng - Thanh toán</a></h4>
+				</div>
+				<ul>
+					<li><a href="#">Hướng dẫn mua hàng</a></li>
+					<li><a href="#">Hướng dẫn thanh toán</a></li>
+					<li><a href="#">Liên hệ</a></li>
+				</ul>
+			</div>
+			<div class="group_footer">
+				<div class="top_footer">
+					<h4><a href="#">Dịch vụ</a></h4>
+				</div>
+				<ul>
+					<li><a href="#">Kiểm định kim cương</a></li>
+					<li><a href="#">Kinh doanh vàng miếng</a></li>
+				</ul>
+			</div>
+			<div class="group_footer">
+				<div class="top_footer">
+					<h4><a href="#">Các cơ sở của ANVANG</a></h4>
+				</div>
+				<ul>
+					<li><a href="#">Khu vực phía Bắc</a></li>
+					<li><a href="#">Khu vực phía Nam</a></li>
+					<li><a href="#">Khu vực miền Trung</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Công ty TNHH Anvang - Địa chỉ: Q.Hải Châu, Tp.Đà Nẵng</p>
+			<p>&copy; 2018 Bản quyền thuộc về Công ty TNHH Anvang -
+			 Cung cấp bởi<a href="#">annguyen</a>
+			</p>
+		</div>
+	</div>
+</footer>
+</div>
+	<script type="text/javascript" src="./slide.js"></script>
+</body>
+</html>

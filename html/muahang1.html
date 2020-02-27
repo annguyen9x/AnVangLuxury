@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi-vn" xml:lang="vi-vn">
+<head>
+	<title>Anvang-Trang sức vàng bạc, đá quý</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style_dangky_taikhoan_kh.css">
+	<script type="text/javascript" src="../javascript/kt_form.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<!-- PHẦN HEADER -->
+<header class="canhdeu_2ben">
+<div class="top_header">
+	<ul>
+		<li><a href="#">Giới thiệu</a></li>
+		<li><a href="#">Chính sách</a></li>
+		<li><a href="#">Đăng ký</a></li>
+		<li><a href="#">Đăng nhập</a></li>
+	</ul>
+</div>
+<div class="logo_search_hotline">
+	<div class="logo">
+		<img src="./img/logo.png" title="anvang" alt="logo">
+	</div>
+	<div class="search_hotline">
+		<div class="search_box">
+			<form action="" method="get">
+				<input type="search" placeholder="Tìm kiếm trang sức vàng bạc ...">
+				<button type="submit"><img src="./img/kinhlup.png"></button>
+			</form>
+		</div>
+		<div class="hotline">
+			<p>Hotline: 0164.724.4142</p>
+		</div>
+	</div>
+</div>
+</header>
+
+<!-- PHẦN MENU_NGANG -->
+<nav>
+<div class="canhdeu_2ben">
+	<ul>
+		<li id="trangchu">
+			<a href="index.html" target="_blank">Trang chủ</a>
+		</li>
+		<li><a href="#">Nhẫn nam</a>
+			<ul class="menucon">
+				<li><a href="#">Nhẫn nam Platin</a></li>
+				<li><a href="#">Nhẫn nam vàng</a></li>
+				<li><a href="#">Nhẫn nam cầu hôn</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Nhẫn nữ</a>
+			<ul class="menucon">
+				<li><a href="#">Nhẫn nữ Platin</a></li>
+				<li><a href="#">Nhẫn nữ vàng</a></li>
+				<li><a href="#">Nhẫn nữ cầu hôn</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Trang sức cưới</a>
+			<ul class="menucon">
+				<li><a href="#">Vòng tay vàng ta</a></li>
+				<li><a href="#">Lắc hoa vàng ta</a></li>
+				<li><a href="#">Lắc kim tiềm</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Trang sức kim cương</a>
+			<ul class="menucon">
+				<li><a href="#">BST kim cương</a></li>
+				<li><a href="#">Nhẫn nam kim cương</a></li>
+				<li><a href="#">Hoa tai kim cương</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Trang sức ngoại nhập</a>
+			<ul class="menucon">
+				<li><a href="#">Mặt dây MD222_NN12</a></li>
+				<li><a href="#">Mặt dây MD213_NN04</a></li>
+				<li><a href="#">Lắc tay vàng trắng</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</nav>
+
+<!-- PHẦN NỘI DUNG SECTION -->
+<section>
+<div class="dangky">
+<h3>Thông tin tài khoản đặt hàng</h3>
+<form method="post" action=""  id="form_dangky">
+	<fieldset class="left_form">
+		<p><label>Địa chỉ email</label><span id="err_email"></span></p>
+		<input type="email" placeholder="Vui lòng nhập email của bạn" id="email">
+		<p><label>Mật khẩu</label><span id="err_matkhau"></span></p>
+		<input type="password" placeholder="Mật khẩu tối thiểu 6 ký tự" id="matkhau">
+		<p><label>Nhập lại mật khẩu</label><span id="err_nhaplaimk"></span></p>
+		<input type="password" placeholder="Vui lòng nhập lại mật khẩu"
+		id="nhaplai_matkhau">
+		<p><label>Điện thoại</label><span id="err_dienthoai"></span></p>
+		<input type="tel" placeholder="Nhập số điện thoại" id="dienthoai">
+	</fieldset>
+	<fieldset class="right_form">
+		<p><label>Họ tên</label><span id="err_ten"></span></p>
+		<input type="text" placeholder="Vui lòng nhập họ tên" id="ten">
+		<p><label>Giới tính</label></p>
+		<input type="radio" name="gioitinh" checked="checked"> Nam
+		<input type="radio" name="gioitinh"> Nữ
+		<br/><br/><p><label>Địa chỉ liên lạc</label><span id="err_diachi"></span></p>
+		<textarea cols="42" rows="5" maxlength="200" 
+		placeholder=" Vui lòng nhập địa chỉ của bạn" id="diachi"></textarea>
+		<p><label><input type="checkbox" id="checkbox"></label>
+		<span> Tôi hoàn toàn đồng ý với các điều khoản mua hàng của công ty</span>
+		<span id="err_checkbox"></span></p>
+	</fieldset>
+	<fieldset class="nut_dangky">
+		<button type="reset">Nhập lại</button>
+		<button type="button" onclick="check_form();">Đăng ký</button>
+	</fieldset>
+</form>
+</div>
+</section>
+
+<!-- PHẦN FOOTER -->
+<footer>
+<div class="canhdeu_2ben">
+	<div class="noidung_footer">
+		<div class="group_footer">
+			<div class="top_footer">
+				<h4><a href="#">Chính sách của anvang</a></h4>
+			</div>
+			<ul>
+				<li><a href="#">Về chúng tôi</a></li>
+				<li><a href="#">Hướng dẫn mua hàng</a></li>
+				<li><a href="#">Phương thức thanh toán</a></li>
+				<li><a href="#">Tư vấn chọn sản phẩm</a></li>
+			</ul>
+		</div>
+		<div class="group_footer">
+			<div class="top_footer">
+				<h4><a href="#">Liên kết nhanh</a></h4>
+			</div>
+			<ul>
+				<li><a href="#">Tin tức</a></li>
+				<li><a href="#">Sự kiện</a></li>
+				<li><a href="#">Tin khuyến mãi</a></li>
+				<li><a href="#">Dịch vụ dạy nghề</a></li>
+			</ul>
+		</div>
+		<div class="group_footer">
+			<div class="top_footer">
+				<h4><a href="#">Dịch vụ</a></h4>
+			</div>
+			<ul>
+				<li><a href="#">Xuất khẩu</a></li>
+				<li><a href="#">Kinh doanh sỉ</a></li>
+				<li><a href="#">Kiểm định kim cương</a></li>
+				<li><a href="#">Kinh doanh vàng miếng</a></li>
+			</ul>
+		</div>
+		<div class="group_footer">
+			<div class="top_footer">
+				<h4><a href="#">Các cơ sở của chúng tôi</a></h4>
+			</div>
+			<ul>
+				<li><a href="#">Cơ sở chính</a></li>
+				<li><a href="#">Khu vực phía Bắc</a></li>
+				<li><a href="#">Khu vực phía Nam</a></li>
+				<li><a href="#">Khu vực miền Trung</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Công ty TNHH Anvang - Địa chỉ: Q.Hải Châu, Tp.Đà Nẵng</p>
+		<p>&copy; 2018 Bản quyền thuộc về Công ty TNHH Anvang -
+		Cung cấp bởi <a href="#">annguyen</a>
+		</p>
+	</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
